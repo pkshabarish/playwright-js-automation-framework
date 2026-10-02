@@ -1,0 +1,23 @@
+{
+  "name": "playwright-js-automation-framework",
+  "version": "1.0.0",
+  "description": "End-to-end UI and API automation framework built with Playwright and JavaScript using POM, data-driven testing and GitHub Actions CI/CD.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkshabarish/playwright-js-automation-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pkshabarish/playwright-js-automation-framework/issues"
+  },
+  "homepage": "https://github.com/pkshabarish/playwright-js-automation-framework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  }
+}
