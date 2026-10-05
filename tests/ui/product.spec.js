@@ -33,8 +33,9 @@ test.describe('Product functionality', () => {
 
 
         await inventoryPage.addProductToCart(
-            'Sauce Labs Backpack'
-        );
+    testData.products.backpack
+);
+        
 
 
         await expect(
@@ -45,9 +46,9 @@ test.describe('Product functionality', () => {
         await inventoryPage.openCart();
 
 
-        await cartPage.verifyProductInCart(
-            'Sauce Labs Backpack'
-        );
+       await cartPage.verifyProductInCart(
+    testData.products.backpack
+);
 
     });
 
