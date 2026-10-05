@@ -4,6 +4,8 @@ const { LoginPage } = require('../../pages/LoginPage');
 const { InventoryPage } = require('../../pages/InventoryPage');
 const { CartPage } = require('../../pages/CartPage');
 
+const testData = require('../../data/testData.json');
+
 
 test.describe('Product functionality', () => {
 
